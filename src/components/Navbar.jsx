@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import { useState } from "react";
+import logo2 from "../images/logo2.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex h-[50px] w-full items-center justify-between px-8 lg:px-20 lg:h-[60px]">
-        <header className="text-2xl font-bold lg:text-4xl">NC</header>
+      <nav className="mb-16 flex h-[50px] w-full items-center justify-between px-8 lg:h-[60px] lg:px-20">
+        <img src={logo2} className="w-[100px] lg:w-[150px]" />
 
         {/* Mobile View  */}
         <button onClick={toggleMenu} className="cursor-pointer lg:hidden">
@@ -99,24 +100,66 @@ function Navbar() {
         </ul>
 
         {/* Desktop View  */}
-        <ul className="hidden text-gray-400 lg:flex gap-20 text-sm tracking-wide">
+        <ul className="hidden gap-20 text-sm tracking-wide text-gray-400 lg:flex">
           <li>
-            <NavLink to="/" className={({isActive}) => `${isActive ? "text-sky-500" : "text-gray-400"}`}>Home</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                `${isActive ? "text-gray-200" : "hover:text-gray-300"}`
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/learning-path" className={({isActive}) => `${isActive ? "text-sky-500" : "text-gray-400"}`}>Learning Path</NavLink>
+            <NavLink
+              to="/learning-path"
+              className={({ isActive }) =>
+                `${isActive ? "text-gray-200" : "hover:text-gray-300"}`
+              }
+            >
+              Learning Path
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/feedback" className={({isActive}) => `${isActive ? "text-sky-500" : "text-gray-400"}`}>Feedback</NavLink>
+            <NavLink
+              to="/feedback"
+              className={({ isActive }) =>
+                `${isActive ? "text-gray-200" : "hover:text-gray-300"}`
+              }
+            >
+              Feedback
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/courses" className={({isActive}) => `${isActive ? "text-sky-500" : "text-gray-400"}`}>Courses</NavLink>
+            <NavLink
+              to="/courses"
+              className={({ isActive }) =>
+                `${isActive ? "text-gray-200" : "hover:text-gray-300"}`
+              }
+            >
+              Courses
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/aboutus" className={({isActive}) => `${isActive ? "text-sky-500" : "text-gray-400"}`}>About Us</NavLink>
+            <NavLink
+              to="/aboutus"
+              className={({ isActive }) =>
+                `${isActive ? "text-gray-200" : "hover:text-gray-300"}`
+              }
+            >
+              About Us
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/projects" className={({isActive}) => `${isActive ? "text-sky-500" : "text-gray-400"}`}>Our Projects</NavLink>
+            <NavLink
+              to="/projects"
+              className={({ isActive }) =>
+                `${isActive ? "text-gray-200" : "hover:text-gray-300"}`
+              }
+            >
+              Our Projects
+            </NavLink>
           </li>
         </ul>
       </nav>
