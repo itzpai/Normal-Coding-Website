@@ -4,8 +4,7 @@ function Projects() {
       batch: 1,
       title: "An Online Dating Website",
       team: "Team A",
-      description:
-        "A romantic-themed dating concept website built with HTML and CSS. Features include love tips, profile matching, user profiles and elegant animations.",
+      description: "A romantic-themed dating concept website built with HTML and CSS. Features include love tips, profile matching, user profiles and elegant animations.",
       demo: "https://cupidintheclouds-theeros.netlify.app/",
       code: "https://github.com/Rekk64/Dating_Website",
     },
@@ -13,8 +12,7 @@ function Projects() {
       batch: 1,
       title: "A Cute Dating Website",
       team: "Team B",
-      description:
-        "A dating website built with HTML and CSS to offer a real chance at love.....",
+      description: "A dating website built with HTML and CSS to offer a real chance at love.....",
       demo: "https://cupidbyteamb.netlify.app/",
       code: "https://github.com/Merryposer/Cupid",
     },
@@ -22,8 +20,7 @@ function Projects() {
       batch: 1,
       title: "Venus Drift Dating App",
       team: "Team C",
-      description:
-        "A youthful dating concept website built with HTML and CSS. Features include zodiac insights, music highlights, user profiles, chat options, trending content, and a Venus-inspired design with Dark Mode.",
+      description: "A youthful dating concept website built with HTML and CSS. Features include zodiac insights, music highlights, user profiles, chat options, trending content, and a Venus-inspired design with Dark Mode.",
       demo: "https://venusdrift.netlify.app/",
       code: "https://venusdrift.netlify.app/", 
     },
@@ -31,8 +28,7 @@ function Projects() {
       batch: 2,
       title: "Thadingyut Travel Website",
       team: "Team A",
-      description:
-        "A festive Thadingyut travel website built with HTML and CSS. Showcases curated journeys, local culture, and immersive visuals.",
+      description: "A festive Thadingyut travel website built with HTML and CSS. Showcases curated journeys, local culture, and immersive visuals.",
       demo: "https://luminousthadingyut.netlify.app/",
       code: "https://github.com/Unknown-as22/Luminous-Thadingyut-Team-A-",
     },
@@ -40,8 +36,7 @@ function Projects() {
       batch: 2,
       title: "Festival of Light",
       team: "Team B",
-      description:
-        "A Thadingyut Festival website built with HTML and CSS. It highlights the festival’s history, travel destinations, a seasonal gift shop, and a contact page.",
+      description:  "A Thadingyut Festival website built with HTML and CSS. It highlights the festival’s history, travel destinations, a seasonal gift shop, and a contact page.",
       demo: "https://festivaloflight.netlify.app/",
       code: "https://github.com/Scarletty3/The-festival-of-light",
     },
@@ -49,8 +44,7 @@ function Projects() {
       batch: 2,
       title: "Twinkle Pop-up Store",
       team: "Team C",
-      description:
-        "A festive Thadingyut pop-up website built with HTML and CSS. It features decorations, traditional gifts, sparklers, sky lanterns, and a playful Wish Page with easy, secure shopping.",
+      description: "A festive Thadingyut pop-up website built with HTML and CSS. It features decorations, traditional gifts, sparklers, sky lanterns, and a playful Wish Page with easy, secure shopping.",
       demo: "https://twinkle-pop-up.netlify.app/",
       code: "https://github.com/Myuu-Myuu/Twinkle-pop-up-store",
     },
@@ -206,4 +200,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Projects
